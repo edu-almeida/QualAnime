@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="utf-8"/>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>QualAnime</title>
+
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="nav-wrapper green">
+            <a class="brand-logo center" href="#">QualAnime</a>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+    
+    <section>
+        <div class="center">
+            <a class="waves-effect green btn-large " onclick="start()">START</a>
+        </div>
+    </section>
+    
+    <section class="center" id="sec-vidas">
+        <div class="divider"></div>
+        <div class="center div-descricao-vidas" id="div-descricao-vidas">
+            <p>SUAS CHANCES ATÉ SER ENFORCADO</p>
+        </div>
+        <div class="center row div-vidas" id="div-vidas">
+            
+            <!--HTML dinamico-->
+        
+        </div>
+        <div class="divider"></div>
+    </section>
+    
+    <section class="center">
+        <div class="center row div-charada" id="div-charada">
+            <h5>█ █ A G O N B A L L</h5>
+        </div>
+    </section>
+    
+    <section id="sectionLetras">
+        <div class="divider"></div>
+        <div class="center container">
+            <h5>Escolha de letras</h5>
+            <div class="grid container">
+                <a class="btn-floating green letraChute" id="letra-A" onclick="testarLetraEscolhida(this.id)">A</a>
+                <a class="btn-floating green letraChute" id="letra-B" onclick="testarLetraEscolhida(this.id)">B</a>
+                <a class="btn-floating green letraChute" id="letra-C" onclick="testarLetraEscolhida(this.id)">C</a>
+                <a class="btn-floating green letraChute" id="letra-D" onclick="testarLetraEscolhida(this.id)">D</a>
+                <a class="btn-floating green letraChute" id="letra-E" onclick="testarLetraEscolhida(this.id)">E</a>
+                <a class="btn-floating green letraChute" id="letra-F" onclick="testarLetraEscolhida(this.id)">F</a>
+                <a class="btn-floating green letraChute" id="letra-G" onclick="testarLetraEscolhida(this.id)">G</a>
+                <a class="btn-floating green letraChute" id="letra-H" onclick="testarLetraEscolhida(this.id)">H</a>
+                <a class="btn-floating green letraChute" id="letra-I" onclick="testarLetraEscolhida(this.id)">I</a>
+                <a class="btn-floating green letraChute" id="letra-J" onclick="testarLetraEscolhida(this.id)">J</a>
+                <a class="btn-floating green letraChute" id="letra-K" onclick="testarLetraEscolhida(this.id)">K</a>
+                <a class="btn-floating green letraChute" id="letra-L" onclick="testarLetraEscolhida(this.id)">L</a>
+                <a class="btn-floating green letraChute" id="letra-M" onclick="testarLetraEscolhida(this.id)">M</a>
+                <a class="btn-floating green letraChute" id="letra-N" onclick="testarLetraEscolhida(this.id)">N</a>
+                <a class="btn-floating green letraChute" id="letra-O" onclick="testarLetraEscolhida(this.id)">O</a>
+                <a class="btn-floating green letraChute" id="letra-P" onclick="testarLetraEscolhida(this.id)">P</a>
+                <a class="btn-floating green letraChute" id="letra-Q" onclick="testarLetraEscolhida(this.id)">Q</a>
+                <a class="btn-floating green letraChute" id="letra-R" onclick="testarLetraEscolhida(this.id)">R</a>
+                <a class="btn-floating green letraChute" id="letra-S" onclick="testarLetraEscolhida(this.id)">S</a>
+                <a class="btn-floating green letraChute" id="letra-T" onclick="testarLetraEscolhida(this.id)">T</a>
+                <a class="btn-floating green letraChute" id="letra-U" onclick="testarLetraEscolhida(this.id)">U</a>
+                <a class="btn-floating green letraChute" id="letra-V" onclick="testarLetraEscolhida(this.id)">V</a>
+                <a class="btn-floating green letraChute" id="letra-W" onclick="testarLetraEscolhida(this.id)">W</a>
+                <a class="btn-floating green letraChute" id="letra-X" onclick="testarLetraEscolhida(this.id)">X</a>
+                <a class="btn-floating green letraChute" id="letra-Y" onclick="testarLetraEscolhida(this.id)">Y</a>
+                <a class="btn-floating green letraChute" id="letra-Z" onclick="testarLetraEscolhida(this.id)">Z</a>
+            </div>
+        
+        </div>
+    </section>
+
+</main>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/Forca.js"></script>
+</body>
+
+</html>

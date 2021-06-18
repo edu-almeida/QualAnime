@@ -1,0 +1,19 @@
+section{
+    margin-top: 3rem;
+}
+
+.divider{
+    margin-bottom: 2rem;
+}
+
+#sectionLetras{
+
+}
+
+#sectionLetras > .center > .grid > a{
+    margin-bottom: 0.3rem !important;
+}
+
+.div-descricao-vidas{
+    padding-bottom: -2rem;
+}
