@@ -1,19 +1,38 @@
-section{
+section {
     margin-top: 3rem;
 }
 
-.divider{
+header {
+    height: 20em;
+    background: url(https://escolhasegura.com/wp-content/uploads/2019/03/Melhores-Animes-1.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 4em;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.divider {
     margin-bottom: 2rem;
 }
 
-#sectionLetras{
-
+#sectionLetras, #sec-charada, #sec-vidas {
+    visibility: hidden;
 }
 
-#sectionLetras > .center > .grid > a{
+#sectionLetras > .center > .grid > a {
     margin-bottom: 0.3rem !important;
 }
 
-.div-descricao-vidas{
-    padding-bottom: -2rem;
+#sec-vidas {
+    margin: -1rem 0 0 0;
 }
