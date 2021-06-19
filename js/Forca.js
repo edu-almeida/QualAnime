@@ -1,8 +1,11 @@
 /*
-
+    Forca.js disponibiliza e possibilita o manuseio de um game do tipo forca. Contem variaveis 
+    para armazenamento e funções internas para manuseio dos dados e para interligação visual dos dados.
+    Este conjunto de funções interligam a interface html as funções que rodam o game.
     Eduardo Pereira de Almeida
     15/06/2021
 */
+
 
 let tentativasFinais;
 let tentativasMaximas;
